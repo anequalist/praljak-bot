@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!praljak') {
-    	message.reply('https://www.jutarnji.hr/incoming/slobodan-praljak-haagjpg/6794733/alternates/LANDSCAPE_680/Slobodan%20Praljak%20Haag.jpg');
+    	message.sendMessage('https://www.jutarnji.hr/incoming/slobodan-praljak-haagjpg/6794733/alternates/LANDSCAPE_680/Slobodan%20Praljak%20Haag.jpg');
   	}
 });
 
