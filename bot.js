@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!praljak') {
-    	message.reply('https://goo.gl/7jg6S6');
+    	message.reply('https://www.vecernji.hr/media/img/e4/35/89beec9b7fc832fd9c68.jpeg');
   	}
 });
 
